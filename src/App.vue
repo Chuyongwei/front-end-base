@@ -4,6 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <List/>
     <Proxy/>
+    <Author/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import List from './components/list'
 import Proxy from './components/proxy'
+import Author from './components/author'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     List,
-    Proxy
+    Proxy,
+    Author
   }
 }
 </script>
