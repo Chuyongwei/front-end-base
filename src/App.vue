@@ -3,18 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <List/>
+    <Proxy/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import List from './components/list'
+import Proxy from './components/proxy'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    List
+    List,
+    Proxy
   }
 }
 </script>
